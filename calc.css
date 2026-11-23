@@ -1,0 +1,52 @@
+#calc1{position:absolute;top:65px; left: -110px;transition: all 500ms ease;background: black;z-index: 2}
+#b0 {width: 100px;height: 100px;background: lightgray;position:absolute; top:700px; left: 810px;}
+#b0text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b1 {width: 100px;height: 100px;background: lightgray;position:absolute; top:590px; left: 700px;}
+#b1text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b2 {width: 100px;height: 100px;background: lightgray;position:absolute; top:590px; left: 810px;}
+#b2text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b3 {width: 100px;height: 100px;background: lightgray;position:absolute; top:590px; left: 920px;}
+#b3text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b4 {width: 100px;height: 100px;background: lightgray;position:absolute; top:480px; left: 700px;}
+#b4text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b5 {width: 100px;height: 100px;background: lightgray;position:absolute; top:480px; left: 810px;}
+#b5text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b6 {width: 100px;height: 100px;background: lightgray;position:absolute; top:480px; left: 920px;}
+#b6text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#bmi {width: 100px;height: 100px;background: lightgray;position:absolute; top:480px; left: 1030px;}
+#bmitext{font-size: 50px;font-family: "Futura";position: relative;top: -4px;left: 34px;}
+#b7 {width: 100px;height: 100px;background: lightgray;position:absolute; top:370px; left: 700px;}
+#b7text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b8 {width: 100px;height: 100px;background: lightgray;position:absolute; top:370px; left: 810px;}
+#b8text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#b9 {width: 100px;height: 100px;background: lightgray;position:absolute; top:370px; left: 920px;}
+#b9text{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#bmul {width: 100px;height: 100px;background: lightgray;position:absolute; top:370px; left: 1030px;}
+#bmultext{font-size: 50px;font-family: "Futura";position: relative;top: 15px;left: 34px;}
+#bdiv {width: 100px;height: 100px;background: lightgray;position:absolute; top:260px; left: 1030px;}
+#bdivtext{font-size: 50px;font-family: "Futura";position: relative;top: 15px;left: 34px;}
+#bce {width: 100px;height: 100px;background: lightgray;position:absolute; top:260px; left: 920px;}
+#bcetext{font-size: 50px;font-family: "Futura";position: relative;top: 15px;left: 18px;}
+#bac {width: 100px;height: 100px;background: lightgray;position:absolute; top:260px; left: 810px;}
+#bactext{font-size: 50px;font-family: "Futura";position: relative;top: 15px;left: 18px;}
+#bon {width: 100px;height: 100px;background: lightgray;position:absolute; top:260px; left: 700px;}
+#bontext{font-size: 50px;font-family: "Futura";position: relative;top: 15px;left: 7px;}
+#brr{width: 100px;height: 100px;background: lightgray;position:absolute; top:700px; left: 700px;}
+#brrtext{font-size: 50px;font-family: "Futura";position: relative;top: 15px;left: 18px;}
+#beq { width: 100px;height: 100px;background: lightgray;position:absolute; top:700px; left: 920px;}
+#beqtext{font-size: 50px;font-family: "Futura";position: relative;top: 17px;left: 34px;}
+#bpl { width: 100px;height: 210px;background: lightgray;position:absolute; top:590px; left: 1030px;}
+#bpltext{font-size: 50px;font-family: "Futura";position: relative;top: 75px;left: 34px;}
+#bscreen { width: 430px;height: 150px;background: #5c5c5c;position:absolute; top:100px; left: 700px;transition: all 500ms ease}
+#block1 {width: 520px;height: 800px;position:absolute;top:115px; left: 32%;background: black;border-radius: 10%;z-index: 1;transition: all 500ms ease}
+#bt {position:relative;text-align:right;margin-right:30px;top:25%;font-family:"Futura";color:black;font-size:75px;}
+
+
+
+
+#e1 {position: fixed;width: 40px;height: 40px;background: black; border-radius: 50%; top: 25%; left:90%;}
+#e2 {position: fixed;width: 40px;height: 40px;background: black; border-radius: 50%; top: 50%; left:90%;}
+#e3 {position: fixed;width: 40px;height: 40px;background: black; border-radius: 50%; top: 75%; left:90%;}
+
+
+

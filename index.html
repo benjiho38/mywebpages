@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="stylesheet" href='calc.css'></link>
+<title>Calculator</title>
+<body>
+<script>
+	var currentnum=0;
+	var operator='';
+	var storednum=0;
+
+	function handleOperator(op){
+		if(operator==''){
+			storednum=currentnum;
+			currentnum=0;
+		}
+		else if(operator=='+'){
+			storednum+=currentnum;
+			currentnum=0;
+			document.getElementById('bt').innerHTML=storednum;
+
+		} 
+		else if(operator=='-'){
+			storednum-=currentnum;
+			currentnum=0;
+			document.getElementById('bt').innerHTML=storednum;
+		} 
+		else if(operator=='x'){
+			storednum*=currentnum;
+			currentnum=0;
+			document.getElementById('bt').innerHTML=storednum;
+
+		} 
+		else if(operator=='÷'){
+			storednum/=currentnum;
+			currentnum=0;
+			document.getElementById('bt').innerHTML=storednum;
+		} 
+		else if(operator=='='){
+			document.getElementById('bt').innerHTML=storednum;
+		}
+
+		currentnum=0; 
+		operator=op; 
+
+		}
+</script>
+<div id=calc1>
+<div id='ops'><span id=opst></span></div>
+<div id='b0' onclick="currentnum=currentnum*10+0;document.getElementById('bt').innerHTML=currentnum;"><span id=b0text>0</span></div>
+<div id='b1' onclick="currentnum=currentnum*10+1;document.getElementById('bt').innerHTML=currentnum;"><span id=b1text>1</span></div>
+<div id='b2' onclick="currentnum=currentnum*10+2;document.getElementById('bt').innerHTML=currentnum;"><span id=b2text>2</span></div>
+<div id='b3' onclick="currentnum=currentnum*10+3;document.getElementById('bt').innerHTML=currentnum;"><span id=b3text>3</span></div>
+<div id='b4' onclick="currentnum=currentnum*10+4;document.getElementById('bt').innerHTML=currentnum;"><span id=b4text>4</span></div>
+<div id='b5' onclick="currentnum=currentnum*10+5;document.getElementById('bt').innerHTML=currentnum;"><span id=b5text>5</span></div>
+<div id='b6' onclick="currentnum=currentnum*10+6;document.getElementById('bt').innerHTML=currentnum;"><span id=b6text>6</span></div>
+<div id='b7' onclick="currentnum=currentnum*10+7;document.getElementById('bt').innerHTML=currentnum;"><span id=b7text>7</span></div>
+<div id='b8' onclick="currentnum=currentnum*10+8;document.getElementById('bt').innerHTML=currentnum;"><span id=b8text>8</span></div>
+<div id='b9' onclick="currentnum=currentnum*10+9;document.getElementById('bt').innerHTML=currentnum;"><span id=b9text>9</span></div>
+<div id='beq' onclick="handleOperator('=');"><span id=beqtext>=</span></div>
+<div id='bpl' onclick="handleOperator('+');"><span id=bpltext>+</span></div>
+<div id='bmi' onclick="handleOperator('-');"><span id=bmitext>_</span></div>
+<div id='bmul' onclick="handleOperator('x');"><span id=bmultext>x</span></div>
+<div id='bdiv' onclick="handleOperator('÷');"><span id=bdivtext>÷</span></div>
+<div id='bce' onclick="currentnum=Math.floor(currentnum/10);document.getElementById('bt').innerHTML=currentnum;"><span id=bcetext>CE</span></div>
+<div id='bac' onclick="currentnum=0;storednum=0;document.getElementById('bt').innerHTML=currentnum;"><span id=bactext>AC</span></div>
+<a href="https://youtu.be/dQw4w9WgXcQ?si=c65EZS1A2IBBs3n8"target='_blank'><div id='brr'><span id=brrtext>RR</span></div></a>
+<div id='bon' onclick="currentnum=0;document.getElementById('bt').innerHTML=currentnum;"><span id=bontext>ON</span></div>
+<div id='bscreen'><div id="bt">0</div></div>
+</div>
+<div id="block1"></div>
+
+<div id=e1 onclick="document.getElementById('block1').style.background='black';document.getElementById('bscreen').style.background='#5c5c5c';"></div>
+<div id=e2 onclick="document.getElementById('block1').style.background='#009be2';document.getElementById('bscreen').style.background='#d87000';"></div>
+<div id=e3 onclick="document.getElementById('block1').style.background='#585858';document.getElementById('bscreen').style.background='white';"></div>
+
+</body>
+</html>
